@@ -1,0 +1,73 @@
+<html>
+
+<head>
+<title>Interface Frontend</title>
+</head>
+
+<body align="center">
+
+<div style="zoom:4; display:inline-block; background:#888888; color:#000000";">
+<br>
+Bulb1 is <input type="button" id="button1" value="{{b1state}}"onclick="switchB1()">
+<br>
+<br>
+Bulb2 is <input type="button" id="button2" value="{{b2state}}"onclick="switchB2()">
+<br>
+<br>
+Bulb3 is <input type="button" id="button3" value="{{b3state}}"onclick="switchB3()">
+<br>
+</div>
+
+<script>
+
+var xhr = new XMLHttpRequest();
+
+function switchB1() {
+	button=document.getElementById("button1")
+	if(button.value==="OFF") {
+		xhr.open('GET', "/b1/ON", false);//"false" implies synchronous request
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	} else {
+		xhr.open('GET', "/b1/OFF", false);
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	}
+}
+function switchB2() {
+	button=document.getElementById("button2")
+	
+	if(button.value==="OFF") {
+		xhr.open('GET', "/b2/ON", false);//"false" implies synchronous request
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	} else {
+		xhr.open('GET', "/b2/OFF", false);
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	}
+}
+function switchB3() {
+	button=document.getElementById("button3")
+
+	if(button.value==="OFF") {
+		xhr.open('GET', "/b3/ON", false);//"false" implies synchronous request
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	} else {
+		xhr.open('GET', "/b3/OFF", false);
+		xhr.send();
+		//alert("response:"+xhr.responseText)
+		button.value=xhr.responseText;
+	}
+}
+</script>
+
+</body>
+
+</html>
