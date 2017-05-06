@@ -27,21 +27,23 @@
 \BOOKMARK [0][-]{chapter.6}{Coding}{}% 27
 \BOOKMARK [1][-]{section.6.1}{Algorithm}{chapter.6}% 28
 \BOOKMARK [1][-]{section.6.2}{References to Technology}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.2.1}{Raspberry Pi}{section.6.2}% 30
-\BOOKMARK [2][-]{subsection.6.2.2}{Python}{section.6.2}% 31
-\BOOKMARK [2][-]{subsection.6.2.3}{Flask \(Python Library\)}{section.6.2}% 32
-\BOOKMARK [2][-]{subsection.6.2.4}{SciKit Learn \(Python Library\)}{section.6.2}% 33
-\BOOKMARK [2][-]{subsection.6.2.5}{HTML}{section.6.2}% 34
-\BOOKMARK [2][-]{subsection.6.2.6}{JavaScript}{section.6.2}% 35
-\BOOKMARK [2][-]{subsection.6.2.7}{REST Web APIs}{section.6.2}% 36
-\BOOKMARK [1][-]{section.6.3}{Advantages}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.4}{Applications}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter.7}{Result Sets}{}% 39
-\BOOKMARK [0][-]{chapter.8}{Testing}{}% 40
-\BOOKMARK [1][-]{section.8.1}{Test Plan}{chapter.8}% 41
-\BOOKMARK [1][-]{section.8.2}{Test Cases}{chapter.8}% 42
-\BOOKMARK [1][-]{section.8.3}{Test Results}{chapter.8}% 43
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 44
-\BOOKMARK [0][-]{section*.63}{ References}{}% 45
-\BOOKMARK [0][-]{section*.65}{Plagiarism Check Report}{}% 46
-\BOOKMARK [0][-]{section*.67}{Paper Published Details}{}% 47
+\BOOKMARK [2][-]{subsection.6.2.1}{LaaS: Learning-as-a-Service}{section.6.2}% 30
+\BOOKMARK [2][-]{subsection.6.2.2}{IoT: Internet of "Things"}{section.6.2}% 31
+\BOOKMARK [2][-]{subsection.6.2.3}{Raspberry Pi}{section.6.2}% 32
+\BOOKMARK [2][-]{subsection.6.2.4}{Python}{section.6.2}% 33
+\BOOKMARK [2][-]{subsection.6.2.5}{Flask \(Python Library\)}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.6}{SciKit Learn \(Python Library\)}{section.6.2}% 35
+\BOOKMARK [2][-]{subsection.6.2.7}{HTML}{section.6.2}% 36
+\BOOKMARK [2][-]{subsection.6.2.8}{JavaScript}{section.6.2}% 37
+\BOOKMARK [2][-]{subsection.6.2.9}{REST Web APIs}{section.6.2}% 38
+\BOOKMARK [1][-]{section.6.3}{Advantages}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.4}{Applications}{chapter.6}% 40
+\BOOKMARK [0][-]{chapter.7}{Result Sets}{}% 41
+\BOOKMARK [0][-]{chapter.8}{Testing}{}% 42
+\BOOKMARK [1][-]{section.8.1}{Test Plan}{chapter.8}% 43
+\BOOKMARK [1][-]{section.8.2}{Test Cases}{chapter.8}% 44
+\BOOKMARK [1][-]{section.8.3}{Test Results}{chapter.8}% 45
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 46
+\BOOKMARK [0][-]{section*.68}{ References}{}% 47
+\BOOKMARK [0][-]{section*.70}{Plagiarism Check Report}{}% 48
+\BOOKMARK [0][-]{section*.72}{Paper Published Details}{}% 49

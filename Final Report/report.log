@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  5 MAY 2017 22:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  6 MAY 2017 16:31
 entering extended mode
 **report.tex
 
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.tex"
+Final Report\report.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -233,7 +233,7 @@ cyhdr.sty"
 \f@ncyO@orf=\skip52
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.aux"
+Final Report\report.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -313,34 +313,27 @@ LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
 
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.out")
+Final Report\report.out")
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.out")
+Final Report\report.out")
 \@outlinefile=\write3
 
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\InitialPages\title.tex"
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-
-<./InitialPages/al_ameen-logo.png, id=191, 225.84375pt x 176.91093pt>
+Final Report\InitialPages\title.tex"
+<./InitialPages/al_ameen-logo.png, id=199, 225.84375pt x 176.91093pt>
 File: ./InitialPages/al_ameen-logo.png Graphic file (type png)
 
 <use ./InitialPages/al_ameen-logo.png>
-Package pdftex.def Info: ./InitialPages/al_ameen-logo.png used on input line 42
+Package pdftex.def Info: ./InitialPages/al_ameen-logo.png used on input line 70
 .
 (pdftex.def)             Requested size: 105.30167pt x 82.48677pt.
  [1
 
 {D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/pdftex/config/pdftex.ma
 p} <E:/BE/Project/Machine Learning On Real-time Data/10. Report II (Final)/Draf
-t/Preliminary Report/InitialPages/al_ameen-logo.png>])
+t/Final Report/InitialPages/al_ameen-logo.png>])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\InitialPages\certificate.tex"
+Final Report\InitialPages\certificate.tex"
 File: ./InitialPages/al_ameen-logo.png Graphic file (type png)
 
 <use ./InitialPages/al_ameen-logo.png>
@@ -348,64 +341,55 @@ Package pdftex.def Info: ./InitialPages/al_ameen-logo.png used on input line 15
 .
 (pdftex.def)             Requested size: 105.30167pt x 82.48677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 21--28
-\OT1/cmr/m/n/12 have suc-cess-fully com-pleted their pre-lim-i-nary project re-
-port en-ti-tled
+Underfull \hbox (badness 10000) in paragraph at lines 48--52
+
  []
 
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
+Underfull \hbox (badness 10000) in paragraph at lines 53--57
 
  []
 
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\InitialPages\acknow.tex"pdfTeX warning (ext4): destination w
-ith the same identifier (name{page.1}) has been already used, duplicate ignored
-
+Final Report\InitialPages\approval-sheet.tex"pdfTeX warning (ext4): destination
+ with the same identifier (name{page.1}) has been already used, duplicate ignor
+ed
 <to be read again> 
                    \relax 
-l.5 \chapter
-            *{Acknowledgments} [1]
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+l.1 \newpage
+             [1]
+Missing character: There is no â in font cmbx12!
+Missing character: There is no € in font cmbx12!
+Missing character: There is no ™ in font cmbx12!
+)
+("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
+Final Report\InitialPages\acknow.tex" [2]
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
-
- []
-
-[2
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+[3
 
 ])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\InitialPages\abstract.tex"
+Final Report\InitialPages\abstract.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no œ in font cmr12!
@@ -425,7 +409,14 @@ been already used, duplicate ignored
 l.19 \end{abstract}
                     [1])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.toc" [1
+Final Report\report.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 7.
+ [1
 
 ])
 \tf@toc=\write4
@@ -441,24 +432,24 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 [2]
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.lof")
+Final Report\report.lof")
 \tf@lof=\write5
  [3
 
 ]
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.lot")
+Final Report\report.lot")
 \tf@lot=\write6
  [4
 
 ]
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter1\introduction.tex"
+Final Report\Chapter1\introduction.tex"
 Chapter 1.
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter2\analysis.tex"pdfTeX warning (ext4): destination wit
-h the same identifier (name{page.1}) has been already used, duplicate ignored
+Final Report\Chapter2\analysis.tex"pdfTeX warning (ext4): destination with the 
+same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
@@ -466,7 +457,7 @@ l.1 \chapter
 
 ]
 Chapter 2.
-<./Chapter2/gantt-chart.png, id=317, 803.0pt x 644.4075pt>
+<./Chapter2/gantt-chart.png, id=327, 803.0pt x 644.4075pt>
 File: ./Chapter2/gantt-chart.png Graphic file (type png)
 
 <use ./Chapter2/gantt-chart.png>
@@ -486,14 +477,18 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.13 \section
              {Requirement Analysis} <E:/BE/Project/Machine Learning On Real-tim
-e Data/10. Report II (Final)/Draft/Preliminary Report/Chapter2/gantt-chart.png>
-])
+e Data/10. Report II (Final)/Draft/Final Report/Chapter2/gantt-chart.png>])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter3\design.tex"
+Final Report\Chapter3\design.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [3]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Design} [3]
 Chapter 3.
 
 Overfull \hbox (7.50282pt too wide) in paragraph at lines 33--34
@@ -507,14 +502,14 @@ n-ter-face (pack-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [5] <./Chapter3/client-t1-t2.png, id=353, 711.6186pt x 473.6094pt>
+ [5] <./Chapter3/client-t1-t2.png, id=361, 711.6186pt x 473.6094pt>
 File: ./Chapter3/client-t1-t2.png Graphic file (type png)
 
 <use ./Chapter3/client-t1-t2.png>
 Package pdftex.def Info: ./Chapter3/client-t1-t2.png used on input line 61.
 (pdftex.def)             Requested size: 390.0pt x 259.56818pt.
 
-<./Chapter3/client-t1.png, id=354, 700.0554pt x 477.4638pt>
+<./Chapter3/client-t1.png, id=362, 700.0554pt x 477.4638pt>
 File: ./Chapter3/client-t1.png Graphic file (type png)
 
 <use ./Chapter3/client-t1.png>
@@ -530,8 +525,8 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.71 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
- II (Final)/Draft/Preliminary Report/Chapter3/client-t1-t2.png>]
-<./Chapter3/t1-t2.png, id=363, 696.6828pt x 476.982pt>
+ II (Final)/Draft/Final Report/Chapter3/client-t1-t2.png>]
+<./Chapter3/t1-t2.png, id=371, 696.6828pt x 476.982pt>
 File: ./Chapter3/t1-t2.png Graphic file (type png)
 
 <use ./Chapter3/t1-t2.png>
@@ -547,7 +542,7 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.83 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
- II (Final)/Draft/Preliminary Report/Chapter3/client-t1.png>]
+ II (Final)/Draft/Final Report/Chapter3/client-t1.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -558,7 +553,7 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.87 \subsection
                 {Required Performance} <E:/BE/Project/Machine Learning On Real-
-time Data/10. Report II (Final)/Draft/Preliminary Report/Chapter3/t1-t2.png>]
+time Data/10. Report II (Final)/Draft/Final Report/Chapter3/t1-t2.png>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -569,19 +564,19 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [10])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter4\modelling.tex"
+Final Report\Chapter4\modelling.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [11]
 Chapter 4.
-<./Chapter4/dfd.png, id=413, 697.6464pt x 491.9178pt>
+<./Chapter4/dfd.png, id=421, 697.6464pt x 491.9178pt>
 File: ./Chapter4/dfd.png Graphic file (type png)
  <use ./Chapter4/dfd.png>
 Package pdftex.def Info: ./Chapter4/dfd.png used on input line 9.
 (pdftex.def)             Requested size: 390.0pt x 274.9992pt.
 
-<./Chapter4/state-transition.png, id=414, 580.569pt x 320.397pt>
+<./Chapter4/state-transition.png, id=422, 580.569pt x 320.397pt>
 File: ./Chapter4/state-transition.png Graphic file (type png)
 
 <use ./Chapter4/state-transition.png>
@@ -597,7 +592,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.18 \end{figure}
                   <E:/BE/Project/Machine Learning On Real-time Data/10. Report 
-II (Final)/Draft/Preliminary Report/Chapter4/dfd.png>]
+II (Final)/Draft/Final Report/Chapter4/dfd.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 20--31
 
  []
@@ -617,15 +612,15 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.34 
       <E:/BE/Project/Machine Learning On Real-time Data/10. Report II (Final)/D
-raft/Preliminary Report/Chapter4/state-transition.png>])
+raft/Final Report/Chapter4/state-transition.png>])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter5\system-design.tex"
+Final Report\Chapter5\system-design.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [14]
 Chapter 5.
-<./Chapter5/system-architecture.png, id=430, 713.064pt x 360.8682pt>
+<./Chapter5/system-architecture.png, id=438, 713.064pt x 360.8682pt>
 File: ./Chapter5/system-architecture.png Graphic file (type png)
 
 <use ./Chapter5/system-architecture.png>
@@ -633,7 +628,7 @@ Package pdftex.def Info: ./Chapter5/system-architecture.png used on input line
 13.
 (pdftex.def)             Requested size: 390.0pt x 197.37683pt.
 
-<./Chapter5/UseCaseDiagram.png, id=431, 780.9175pt x 363.3575pt>
+<./Chapter5/UseCaseDiagram.png, id=439, 780.9175pt x 363.3575pt>
 File: ./Chapter5/UseCaseDiagram.png Graphic file (type png)
 
 <use ./Chapter5/UseCaseDiagram.png>
@@ -648,8 +643,8 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.27 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
- II (Final)/Draft/Preliminary Report/Chapter5/system-architecture.png>]
-<./Chapter5/ClassDiagram.png, id=438, 822.07124pt x 371.3875pt>
+ II (Final)/Draft/Final Report/Chapter5/system-architecture.png>]
+<./Chapter5/ClassDiagram.png, id=446, 822.07124pt x 371.3875pt>
 File: ./Chapter5/ClassDiagram.png Graphic file (type png)
 
 <use ./Chapter5/ClassDiagram.png>
@@ -665,8 +660,8 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.36 
       <E:/BE/Project/Machine Learning On Real-time Data/10. Report II (Final)/D
-raft/Preliminary Report/Chapter5/UseCaseDiagram.png>]
-<./Chapter5/ActivityDiagram.png, id=445, 336.25626pt x 879.285pt>
+raft/Final Report/Chapter5/UseCaseDiagram.png>]
+<./Chapter5/ActivityDiagram.png, id=454, 336.25626pt x 879.285pt>
 File: ./Chapter5/ActivityDiagram.png Graphic file (type png)
 
 <use ./Chapter5/ActivityDiagram.png>
@@ -682,8 +677,8 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.46 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
- II (Final)/Draft/Preliminary Report/Chapter5/ClassDiagram.png>]
-<./Chapter5/SequenceDiagram.png, id=453, 783.92876pt x 342.27875pt>
+ II (Final)/Draft/Final Report/Chapter5/ClassDiagram.png>]
+<./Chapter5/SequenceDiagram.png, id=461, 783.92876pt x 342.27875pt>
 File: ./Chapter5/SequenceDiagram.png Graphic file (type png)
 
 <use ./Chapter5/SequenceDiagram.png>
@@ -699,9 +694,9 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.54 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
- II (Final)/Draft/Preliminary Report/Chapter5/ActivityDiagram.png>])
+ II (Final)/Draft/Final Report/Chapter5/ActivityDiagram.png>])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter6\coding.tex"
+Final Report\Chapter6\coding.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -712,50 +707,58 @@ Missing character: There is no ™ in font cmr12!
                                                   \fi \fi 
 l.1 \chapter
             {Coding} <E:/BE/Project/Machine Learning On Real-time Data/10. Repo
-rt II (Final)/Draft/Preliminary Report/Chapter5/SequenceDiagram.png>]
+rt II (Final)/Draft/Final Report/Chapter5/SequenceDiagram.png>]
 Chapter 6.
-
-Overfull \hbox (5.21396pt too wide) in paragraph at lines 55--56
- [][] \OT1/cmr/m/n/12 Python is an in-ter-preted lan-guage with ob-ject ori-ent
-ed fea-tures.<Add python
- []
-
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
 [20
 
 ]
-Overfull \hbox (0.70105pt too wide) in paragraph at lines 92--94
-\OT1/cmr/m/n/12 ing ma-chine learn-ing al-go-rithms that we in-tend to use. Be-
-ing in Python,
- []
-
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ˜ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[21])
-("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter7\result-sets.tex"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [21]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [22]
+Overfull \hbox (0.70105pt too wide) in paragraph at lines 114--116
+\OT1/cmr/m/n/12 ing ma-chine learn-ing al-go-rithms that we in-tend to use. Be-
+ing in Python,
+ []
+
+)
+("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
+Final Report\Chapter7\result-sets.tex"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [23]
 Chapter 7.
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter8\testing.tex" [23
+Final Report\Chapter8\testing.tex" [24
 
 ]
 Chapter 8.
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter9\conclusion.tex" [24
+Final Report\Chapter9\conclusion.tex" [25
 
 ]
 Chapter 9.
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\Chapter10\references.tex" [25
+Final Report\Chapter10\references.tex" [26
 
-] [26
+] [27
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
@@ -814,11 +817,11 @@ l.30 \bibitem{}
                Parisa Rashidi, Student Member, IEEE, and Diane J. Cook, Fell...
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\EndPages\plagiarism-check.tex"
+Final Report\EndPages\plagiarism-check.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [27pdfTeX warning (ext4): destination with the same identifier (name{cite.}) h
+ [28pdfTeX warning (ext4): destination with the same identifier (name{cite.}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -826,65 +829,44 @@ as been already used, duplicate ignored
 l.1 \cleardoublepage
                     ])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\EndPages\published-by.tex" [28
+Final Report\EndPages\published-by.tex" [29
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
- [29
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+ [30
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
 
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Preliminary Report\report.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Final Report\report.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 33EC229B3CEB07A792A34681DF31847F;3108.
 
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: 010B29E38A106D58E818F5BAC6C94241;2946
-(rerunfilecheck)             After:  3D0695BBC3D1F4F9B475BC27BE3E93EA;2946.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 5547 strings out of 493921
- 88788 string characters out of 3136416
+ 5548 strings out of 493921
+ 88666 string characters out of 3136416
  158652 words of memory out of 3000000
- 8550 multiletter control sequences out of 15000+200000
- 10449 words of font info for 36 fonts, out of 3000000 for 9000
+ 8547 multiletter control sequences out of 15000+200000
+ 8800 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,10n,43p,1564b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.68} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.66} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.64} has been referenced but does not exist
-, replaced by a fixed one
-
-<D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fonts/type1/public/amsf
-onts/cm/cmbx10.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/m
-iktex-portable/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Softwares/DOCUMEN
-T PROCESSING/LaTeX/miktex-portable/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:
-/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex
--portable/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Softwares/DOCUMENT PROC
-ESSING/LaTeX/miktex-portable/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (37 pages, 664938 bytes).
+<D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/
+miktex-portable/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on report.pdf (39 pages, 617017 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 437 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 602 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
