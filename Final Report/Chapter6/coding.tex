@@ -1,0 +1,113 @@
+\chapter{Coding}
+
+% Algorithm
+% References to Technology
+% Advantages
+% Applications
+
+\section{Algorithm}
+<Stick LogReg history here.>
+
+\section{References to Technology}
+
+%Need to drop or reuse parts between "%%%...".
+\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Machine Learning}
+Machine learning is a subfield of computer science that evolved from the study of pattern recognition and computational learning theory in artificial intelligence.In 1959, Arthur Samuel defined machine learning as a 
+\begin{quote}
+"Field of study that gives computers the ability to learn without being explicitly programmed".
+\end{quote} Machine learning explores the study and construction of algorithms that can learn from and make predictions on data. Such algorithms operate by building a model from example inputs in order to make data-driven predictions or decisions, rather than following strictly static program instructions.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{comment}
+
+%Extra data. Doesn't seem relevant. It's the best page filler.
+\begin{comment}
+\subsubsection{Reinforcement Learning}
+\paragraph{}
+Reinforcement learning is an area of machine learning inspired by behaviorist psychology, concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward.
+\paragraph{}
+Reinforcement learning differs from standard supervised learning in that correct input/output pairs are never presented, nor sub-optimal actions explicitly corrected. Further, there is a focus on on-line performance, which involves finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge).
+
+\paragraph{Temporal Difference Learning}
+Temporal difference (TD) learning is a prediction-based machine learning method. It has primarily been used for the reinforcement learning problem. It learns by sampling the environment according to some policy, and is related to dynamic programming techniques as it approximates its current estimate based on previously learned estimates.
+\paragraph{}
+As a prediction method, TD learning considers that subsequent predictions are often correlated in some sense. In standard supervised predictive learning, one learns only from actually observed values: A prediction is made, and when the observation is available, the prediction is adjusted to better match the observation. The core idea of TD learning is that one adjusts predictions to match other, more accurate, predictions about the future.
+\end{comment}
+
+\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{Raspberry Pi}
+The Raspberry Pi is an ARM-based Single Board Computer. It was initially launched in the UK to teach programming to school children but being very cheap yet powerful, it became a favorite among computer hobbyists around the world. The latest revision available at the time of writing this report is revision 3. Raspberry Pi runs it's own flavor of Linux based on Debian called Raspbian OS.
+
+\paragraph{SciKit Learn}
+SciKit Learn is an open-source machine learning library native to Python that is based on scipy and numpy. SciKit Learn implements a variety of machine learning algorithms in a very efficient way. It also comes with interfaces for many other popular languages.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{comment}
+
+\subsection{Raspberry Pi}
+\paragraph{}
+The Raspberry Pi is an ARM-based Single Board Computer. It was initially launched in the UK to teach programming to school children but being very cheap yet powerful, it became a favorite among computer hobbyists around the world. The latest revision available at the time of writing this report is revision 3. Raspberry Pi runs it's own flavor of Linux based on Debian called Raspbian OS.
+\paragraph{}
+This system is entirely designed using Python (for the back-end on Tier I and II) and HTML/Javascript (for the front-end on Tier I). Tier I is implemented on a Raspberry Pi 2, model B+ - an ARM Cortex A7-based 32-bit quad-core Single Board Computer with 512 MB RAM and frequency of 900 MHz, and running the default Raspbian OS. Python is installed by default on these systems. With this, we need to install the python-flask package - a lightweight framework for implementing robust WSGI applications.
+\subsection{Python}
+\paragraph{}
+Python is an interpreted language with object oriented features.<Add python history and specs here>
+\subsection{Flask (Python Library)}
+\paragraph{}
+<Add flask history here>
+\subsection{SciKit Learn (Python Library)}
+\paragraph{}
+<Add SciKit Learn history here.>
+\subsection{HTML}
+\paragraph{}
+<Add description.>
+\subsection{JavaScript}
+\paragraph{}
+<Add history and description>
+\subsection{REST Web APIs}
+\paragraph{}
+<Add description.>
+
+\section{Advantages}
+
+\begin{enumerate}
+
+\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\item \textbf{Machine Learning}
+It is central to the functioning of any system that is based on learning complex models that often change dynamically, thus rendering hard coding of such models difficult if not impossible. Machine learning overcomes this hurdle by analyzing the model and trying to detect any patterns in it. Any changes in the pattern can also be detected by the system and the system can respond to it suitably.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{comment}
+
+\item \textbf{Raspberry Pi}
+It's a cheap and yet complete, Linux-powered computer that can be used in lieu of many things like conventional microcontrollers, data sinks, and under-utilized workstations to name a few. It's size and cost also make it suitable to be used as a device interface in our project. Having a Python library to control its GPIO pins also makes it easier to program.
+
+\item \textbf{Python}
+<Add advantage>
+
+\item \textbf{Flask}
+<Add advantage over other WSGI frameworks>
+
+\item \textbf{SciKit Learn}
+By using this library, we are spared the effort of rewriting machine learning algorithms that we intend to use. Being in Python, importing and using this library becomes as easy as writing conventional Python code.
+
+\item \textbf{JavaScript}
+<Add advantage over other scripting languages>
+
+\item \textbf{REST Web APIs}
+<Add advantage over SOAP>
+\end{enumerate}
+
+\section{Applications}
+
+\begin{enumerate}
+\item \textbf{Machine Learning}
+Being a broad field of study, it finds application in a wide variety of fields. One such new field is enhancing classical automation systems for smart homes and non-critical industrial operations by working on behavioral data in real-time. Although we are more focused on home automation, this system can be modified to suit even industrial systems.
+
+\item \textbf{Raspberry Pi}
+It is a complete computer system in itself and can be used in a variety of places. It's major applications include use as PC, smart device, hobby computer, teaching aid, IoT Hub etc.
+
+\item \textbf{SciKit Learn}
+Applications of this library are just as vast as that of machine learning itself. It has been used by various projects dealing with everything from artificial intelligence to big data analytics.
+\end{enumerate}
