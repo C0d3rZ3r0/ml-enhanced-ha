@@ -6,7 +6,34 @@
 % Applications
 
 \section{Algorithm}
-<Stick LogReg history here.>
+\paragraph{Logistic Regression}
+Logistic regression is a statistical method for analyzing a dataset in which there are one or more independent variables that determine an outcome. The outcome is measured with a dichotomous variable. Logistic regression was developed by statistician David Cox in 1958. The binary logistic model is used to estimate the probability of a binary response based on one or more predictor (or independent) variables (features).
+
+\subsection{Logistic Function}
+\paragraph{}
+The logistic function is the heart of the logistic regression technique. The logistic function is defined as:
+\begin{equation}
+transformed = \frac{1}{1+e^{-x}}
+\end{equation}
+Where e is the numerical constant Euler’s number and x is a input we plug into the function.
+\paragraph{}
+Inputs to the logistic function are transformed into the range [0, 1] and smaller numbers result in values close to zero and the larger positive numbers result in values close to one.
+\subsection{Logistic Regression Model}
+\paragraph{}
+The logistic regression model takes real-valued inputs and makes a prediction as to the probability of the input belonging to the default class (class 0). If the probability is > 0.5 we can take the output as a prediction for the default class (class 0), otherwise the prediction is for the other class (class 1).
+\paragraph{}
+Consider that a dataset has three coefficients, for example:
+\begin{equation}
+output = b0 + b1*x1 + b2*x2
+\end{equation}
+The job of the learning algorithm will be to discover the best values for the coefficients (b0, b1 and b2) based on the training data.
+\paragraph{}
+Unlike linear regression, the output is transformed into a probability using the logistic function:
+\begin{equation}
+p(class=0) = \frac{1}{1 + e^{-output}}
+\end{equation}
+This probability is then used to make a discrete-valued prediction that is then output.
+
 
 \section{References to Technology}
 
@@ -48,6 +75,8 @@ SciKit Learn is an open-source machine learning library native to Python that is
 \subsection{LaaS: Learning-as-a-Service}
 \paragraph{}
 This is a special case of Software-as-a-Service. In general, it refers to a range of services that offer machine learning tools as part of cloud computing services, as the name suggests. LaaS providers offer tools including data visualization, APIs, face recognition, natural language processing, predictive analytics and deep learning. But for our application, we will implement only the APIs and predictive analysis part. The server providing the service is responsible for creating and maintaining prediction models based on the data it receives from the clients through its APIs.
+\paragraph{}
+We are implementing our own server to provide LaaS. This server will be light-weight, as it is a Tier II component targeted towards conventional personal computers. Implementing this requires creating an API for the clients to interact via and writing back-end logic for the data accumulation and learning procedures. Besides, we need to make sure that the network connectivity is available and the machines can detect each other.
 \subsection{IoT: Internet of "Things"}
 \paragraph{}
 The Internet of things (IoT) can be defined as the inter-networking of physical devices, vehicles (also referred to as "connected devices" and "smart devices"), buildings, and other items—embedded with electronics, software, sensors, actuators, and network connectivity that enable these objects to collect and exchange data.
@@ -68,30 +97,78 @@ Python is a widely used high-level programming language for general-purpose prog
 \paragraph{}
 It features a dynamic type system and automatic memory management and supports multiple programming paradigms, including object-oriented, imperative, functional programming, and procedural styles. It has a large and comprehensive standard library. Interpreters for Python are available for many operating systems, allowing Python code to run on a wide variety of systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of its variant implementations. CPython is managed by the non-profit Python Software Foundation.
 \paragraph{}
-Python is a multi-paradigm programming language: object-oriented programming and structured programming are fully supported, and many language features support functional programming and aspect-oriented programming (including by metaprogramming[38] and metaobjects (magic methods)).[39] Many other paradigms are supported via extensions, including design by contract[40][41] and logic programming. Python uses dynamic typing and a mix of reference counting and a cycle-detecting garbage collector for memory management. An important feature of Python is dynamic name resolution (late binding), which binds method and variable names during program execution.
+Python is a multi-paradigm programming language: object-oriented programming and structured programming are fully supported, and many language features support functional programming and aspect-oriented programming (including by metaprogramming and metaobjects (magic methods)). Many other paradigms are supported via extensions, including design by contract and logic programming. Python uses dynamic typing and a mix of reference counting and a cycle-detecting garbage collector for memory management. An important feature of Python is dynamic name resolution (late binding), which binds method and variable names during program execution.
 \paragraph{}
-The design of Python offers some support for functional programming in the Lisp tradition. The language has map(), reduce() and filter() functions; list comprehensions, dictionaries, and sets; and generator expressions.[43] The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Rather than requiring all desired functionality to be built into the language's core, Python was designed to be highly extensible. Python can also be embedded in existing applications that need a programmable interface. This design of a small core language with a large standard library and an easily extensible interpreter was intended by Van Rossum from the start because of his frustrations with ABC, which espoused the opposite mindset.
+The design of Python offers some support for functional programming in the Lisp tradition. The language has map(), reduce() and filter() functions; list comprehensions, dictionaries, and sets; and generator expressions. The standard library has two modules (itertools and functools) that implement functional tools borrowed from Haskell and Standard ML. Rather than requiring all desired functionality to be built into the language's core, Python was designed to be highly extensible. Python can also be embedded in existing applications that need a programmable interface. This design of a small core language with a large standard library and an easily extensible interpreter was intended by Van Rossum from the start because of his frustrations with ABC, which espoused the opposite mindset.
 
 \subsection{Flask (Python Library)}
 \paragraph{}
-<Add flask history here>
+Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed. The latest stable version of Flask is 0.12 as of December 2016. Applications that use the Flask framework include Pinterest, LinkedIn, and the community web page for Flask itself.
+\paragraph{}
+Flask is called a micro framework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools. Extensions are updated far more regularly than the core Flask program.
+\paragraph{}
+The following code shows a simple web application that prints "Hello World!":
+\begin{verbatim}
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World!"
+
+if __name__ == "__main__":
+    app.run('',80)
+\end{verbatim}
+Once this is running, we can simply visit the root of the server (something like "$<$host\_ip$>$:80/") to see the generated document.
+
+\paragraph{}
+Given below, is a simple web service which performs addition on two numbers provided in the url:
+\begin{verbatim}
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/<num1>/<num2>")
+def hello():
+    return str(num1+num2)
+
+if __name__ == "__main__":
+    app.run('0.0.0.0',80)
+\end{verbatim}
+Obviously, this doesn't perform any type checks on provided arguments for validity, but works well as an example, nonetheless. To use the service, we can perform an invocation from the commandline of the same machine as follows:
+\begin{verbatim}
+$ curl localhost/4/3
+[...]
+7
+$ _
+\end{verbatim}
 
 \subsection{SciKit Learn (Python Library)}
 \paragraph{}
-<Add SciKit Learn history here.>
+Scikit-learn is a free software machine learning library for the Python programming language. It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy. Scikit-learn is largely written in Python, with some core algorithms written in Cython to achieve performance. Support vector machines are implemented by a Cython wrapper around LIBSVM; logistic regression and linear support vector machines by a similar wrapper around LIBLINEAR.
+
+\paragraph{}
+Scikit-learn provides a range of supervised and unsupervised learning algorithms via a consistent interface in Python. It is licensed under a permissive simplified BSD license and is distributed under many Linux distributions, encouraging academic and commercial use. The library is built upon the SciPy (Scientific Python) that must be installed before you can use scikit-learn.
+\paragraph{}
+Extensions or modules for SciPy care conventionally named SciKits. As such, the module provides learning algorithms and is named scikit-learn. The vision for the library is a level of robustness and support required for use in production systems. This means a deep focus on concerns such as easy of use, code quality, collaboration, documentation and performance. Although the interface is Python, c-libraries are leverage for performance such as numpy for arrays and matrix operations, LAPACK, LibSVM and the careful use of cython.
 
 \subsection{HTML}
 \paragraph{}
-<Add description.>
-
+It stands for Hypertext Markup Language. HTML is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a webserver or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+\paragraph{}
+HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
+\paragraph{}
+HTML can embed programs written in a scripting language such as JavaScript which affect the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. HTML tags most commonly come in pairs like <h1> and </h1>, although some represent empty elements and so are unpaired, for example <img>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening tags and closing tags).
 \subsection{JavaScript}
 \paragraph{}
-<Add history and description>
-
-\subsection{REST Web APIs}
+JavaScript is a high-level, dynamic, untyped, and interpreted run-time language. It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, JavaScript is one of the three core technologies of World Wide Web content production; the majority of websites employ it, and all modern Web browsers support it without the need for plug-ins. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.
 \paragraph{}
-<Add description.>
+JavaScript is also used in environments that are not Web-based, such as PDF documents, site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs) and platforms built upon them have also increased the popularity of JavaScript for server-side Web applications. On the client side, developers have traditionally implemented JavaScript as an interpreted language, but more recent browsers perform just-in-time compilation. Programmers also use JavaScript in video-game development, in crafting desktop and mobile applications, and in server-side network programming with run-time environments such as Node.js.
 
+\subsection{RESTful Web APIs}
+\paragraph{}
+Web services that use REST architecture are called RESTful APIs. Representational state transfer (REST) or RESTful Web services are one way of providing interoperability between computer systems on the Internet. REST-compliant Web services allow requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations. Other forms of Web service exist, which expose their own arbitrary sets of operations such as WSDL and SOAP.
+\paragraph{}
+REST is often used in mobile applications, social networking Web sites, mashup tools, and automated business processes. The REST style emphasizes that interactions between clients and services is enhanced by having a limited number of operations (verbs). Flexibility is provided by assigning resources (nouns) their own unique Universal Resource Identifiers. Because each verb has a specific meaning (GET, POST, PUT and DELETE), REST avoids ambiguity.
 
 \section{Advantages}
 
@@ -105,26 +182,59 @@ It is central to the functioning of any system that is based on learning complex
 \end{comment}
 
 \item \textbf{Raspberry Pi}
-It's a cheap and yet complete, Linux-powered computer that can be used in lieu of many things like conventional microcontrollers, data sinks, and under-utilized workstations to name a few. It's size and cost also make it suitable to be used as a device interface in our project. Having a Python library to control its GPIO pins also makes it easier to program.
+	\begin{enumerate}
+	\item[] It's a cheap and yet complete, Linux-powered computer that can be used in lieu of many things like conventional microcontrollers, data sinks, and under-utilized workstations to name a few.
+	\item[] It's size and cost also make it suitable to be used as a device interface in our project. Having a Python library to control its GPIO pins also makes it easier to program.
+	\end{enumerate}
 
 \item \textbf{Python}
-<Add advantage>
+	\begin{enumerate}
+	\item[] There are many third party modules for it that expand its capabilities.
+	\item[] Provides a large standard library which includes areas like internet protocols, string operations, web services tools and operating system interfaces.
+	\item[] Python has built-in list and dictionary data structures which can be used to construct fast runtime data structures.
+	\item[] Python has clean object-oriented design, provides enhanced process control capabilities, and possesses strong integration and text processing capabilities and its own unit testing framework.
+	\item[] Python is considered a viable option for building complex multi-protocol network applications.
+	\end{enumerate}
 
 \item \textbf{Flask}
-<Add advantage over other WSGI frameworks>
+	\begin{enumerate}
+	\item[] Flask uses the Django-inspired Jinja2 templating language by default but can be configured to use another language.
+	\item[] It is light weight and easy to program.
+	\item[] small web applications as well as light weight services can be rapidly built using Flask.
+	\item[] Consumes less machine resources - be it memory, processing, or disk space.
+	\item[] Ideal for small web project that don't expect to have too many users at a time.
+	\end{enumerate}
 
 \item \textbf{SciKit Learn}
-By using this library, we are spared the effort of rewriting machine learning algorithms that we intend to use. Being in Python, importing and using this library becomes as easy as writing conventional Python code.
+	\begin{enumerate}
+	\item[] By using this library, we are spared the effort of rewriting machine learning algorithms that we intend to use.
+	\item[] Being in Python, importing and using this library becomes as easy as writing conventional Python code.
+	\item[] Sklearn is far richer in terms of decent implementations of a large number of commonly used algorithms as compared to most other libraries.
+	\item[] It is ideal for small scale machine learning applications, like this project.
+	\item[] Does not require users to be an expert at ML, as it provides conveniently packaged modules for a wide variety of models.
+	\end{enumerate}
 
 \item \textbf{JavaScript}
-<Add advantage over other scripting languages>
+	\begin{enumerate}
+	\item[] Javascript is executed on the client side, thus saving bandwidth and strain on the web server.
+	\item[] Javascript is relatively fast to the end user as it does not need to be processed in the site's web server and sent back to the user consuming local as well as server bandwidth.
+	\item[] JavaScript can be used to generate dynamic contents within webpages, thus providing dynamism in interactivity.
+	\item[] Due to its flexibility, ease of learning, and speed, it enables developers to design richer interfaces with commendable convenience.
+	\end{enumerate}
 
 \item \textbf{REST Web APIs}
-<Add advantage over SOAP>
+	\begin{enumerate}
+	\item[] The REST protocol totally separates the user interface from the server and the data storage thus improving the portability of the interface to other types of platforms, increasing the scalability of the projects, and allowing different components of developments to be evolve independently.
+	\item[] Separation of client and server makes it easier to have the front and the back on different servers, and this makes the apps more flexible to work with.
+	\item[] The REST API is always independent of the type of platform or languages - it always adapts to the type of syntax or platforms being used.
+	\end{enumerate}
+
 \end{enumerate}
 
 \section{Applications}
 
+\begin{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{enumerate}
 \item \textbf{Machine Learning}
 Being a broad field of study, it finds application in a wide variety of fields. One such new field is enhancing classical automation systems for smart homes and non-critical industrial operations by working on behavioral data in real-time. Although we are more focused on home automation, this system can be modified to suit even industrial systems.
@@ -134,4 +244,18 @@ It is a complete computer system in itself and can be used in a variety of place
 
 \item \textbf{SciKit Learn}
 Applications of this library are just as vast as that of machine learning itself. It has been used by various projects dealing with everything from artificial intelligence to big data analytics.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{comment}
+
+\begin{enumerate}
+\item \textbf{Raspberry Pi} The Pi is being used to design a smart device enumerator-cum-controller. For the purpose of this demo, we've hardcoded some devices in our interface itself. The Pi will provide the user with a convenient web interface for controlling the smart devices. It will also use the machine learning services from Tier II to perform predictive analysis of the user's actions and influencing factors. This computer will be deployed at Tier I, which means that it will directly be interacted with by the user from the client layer.
+
+\item \textbf{Python} Python is used to develop both the tiers. It is being used to implement the Tier I as it is easy to program the Pi using Pi. Besides this, we are using it to implement a Learning Service at Tier II, as the language has support for various platforms. Also, there are a variety of modules available for the language, from low-level hardware control to web services frameworks.
+
+\item \textbf{Flask} Flask is being used by the Tier I to implement an API for the controller's interface, which will be utilized by the client to control the smart devices. Due to the flexibility and vastness of the REST architecture, we're using Flask at Tier II too. At Tier II, Flask is used to implement a web service API for the Learning Service. At Tier II, Flask will have to be used with SciKit Learn library to provide ML services to Tier I applications.
+
+\item \textbf{SciKit Learn} This library is being used to implement learning capabilities for the system. It will be used at Tier II with the web services framework to provide Learning services for Tier I application. The best part about using this library is the ease of use. We do not need to be experts at ML to be able to utilize the many useful learning models that have been implemented in the library. Besides, being meant for Python, we've had to write less amount of code to implement even sophisticated learning models using SciKit Learn.
+
+\item \textbf{RESTful WebAPIs} These are APIs for web services that are designed using the REST paradigm. We are using these for both client-Tier I and Tier I-Tier II interfaces. At the client-Tier I interface, we use the this type of API for use by the client to control smart devices. To make any changes to the state of a device, the client device performs a call to a pre-crafted REST API that contains the device identifier and the state the user intends to switch it to. At the Tier I-Tier II interface, the API is used by Tier II to provide the Learning Service to Tier I application. The Tier I application will perform API calls to send usage data periodically, and each time one of the device states of external parameters gets modified, it will request for prediction of the states of dependent devices.
 \end{enumerate}
