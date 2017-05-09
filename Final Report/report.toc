@@ -67,39 +67,58 @@
 \contentsline {paragraph}{}{19}{section*.52}
 \contentsline {chapter}{\numberline {6}Coding}{20}{chapter.6}
 \contentsline {section}{\numberline {6.1}Algorithm}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}References to Technology}{20}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}LaaS: Learning-as-a-Service}{20}{subsection.6.2.1}
-\contentsline {paragraph}{}{20}{section*.53}
-\contentsline {subsection}{\numberline {6.2.2}IoT: Internet of "Things"}{20}{subsection.6.2.2}
+\contentsline {paragraph}{Logistic Regression}{20}{section*.53}
+\contentsline {subsection}{\numberline {6.1.1}Logistic Function}{20}{subsection.6.1.1}
 \contentsline {paragraph}{}{20}{section*.54}
 \contentsline {paragraph}{}{20}{section*.55}
-\contentsline {paragraph}{}{21}{section*.56}
-\contentsline {subsection}{\numberline {6.2.3}Raspberry Pi}{21}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.1.2}Logistic Regression Model}{20}{subsection.6.1.2}
+\contentsline {paragraph}{}{20}{section*.56}
 \contentsline {paragraph}{}{21}{section*.57}
 \contentsline {paragraph}{}{21}{section*.58}
-\contentsline {subsection}{\numberline {6.2.4}Python}{21}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.2}References to Technology}{21}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}LaaS: Learning-as-a-Service}{21}{subsection.6.2.1}
 \contentsline {paragraph}{}{21}{section*.59}
-\contentsline {paragraph}{}{22}{section*.60}
+\contentsline {paragraph}{}{21}{section*.60}
+\contentsline {subsection}{\numberline {6.2.2}IoT: Internet of "Things"}{22}{subsection.6.2.2}
 \contentsline {paragraph}{}{22}{section*.61}
-\contentsline {subsection}{\numberline {6.2.5}Flask (Python Library)}{22}{subsection.6.2.5}
 \contentsline {paragraph}{}{22}{section*.62}
-\contentsline {subsection}{\numberline {6.2.6}SciKit Learn (Python Library)}{22}{subsection.6.2.6}
 \contentsline {paragraph}{}{22}{section*.63}
-\contentsline {subsection}{\numberline {6.2.7}HTML}{22}{subsection.6.2.7}
+\contentsline {subsection}{\numberline {6.2.3}Raspberry Pi}{22}{subsection.6.2.3}
 \contentsline {paragraph}{}{22}{section*.64}
-\contentsline {subsection}{\numberline {6.2.8}JavaScript}{22}{subsection.6.2.8}
 \contentsline {paragraph}{}{22}{section*.65}
-\contentsline {subsection}{\numberline {6.2.9}REST Web APIs}{22}{subsection.6.2.9}
-\contentsline {paragraph}{}{22}{section*.66}
-\contentsline {section}{\numberline {6.3}Advantages}{22}{section.6.3}
-\contentsline {section}{\numberline {6.4}Applications}{23}{section.6.4}
-\contentsline {chapter}{\numberline {7}Result Sets}{24}{chapter.7}
-\contentsline {chapter}{\numberline {8}Testing}{25}{chapter.8}
-\contentsline {section}{\numberline {8.1}Test Plan}{25}{section.8.1}
-\contentsline {section}{\numberline {8.2}Test Cases}{25}{section.8.2}
-\contentsline {section}{\numberline {8.3}Test Results}{25}{section.8.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{26}{chapter.9}
-\contentsline {paragraph}{}{26}{section*.67}
-\contentsline {chapter}{\numberline {10} References}{27}{section*.68}
-\contentsline {chapter}{Plagiarism Check Report}{29}{section*.70}
-\contentsline {chapter}{Paper Published Details}{30}{section*.72}
+\contentsline {subsection}{\numberline {6.2.4}Python}{23}{subsection.6.2.4}
+\contentsline {paragraph}{}{23}{section*.66}
+\contentsline {paragraph}{}{23}{section*.67}
+\contentsline {paragraph}{}{23}{section*.68}
+\contentsline {paragraph}{}{23}{section*.69}
+\contentsline {subsection}{\numberline {6.2.5}Flask (Python Library)}{24}{subsection.6.2.5}
+\contentsline {paragraph}{}{24}{section*.70}
+\contentsline {paragraph}{}{24}{section*.71}
+\contentsline {paragraph}{}{24}{section*.72}
+\contentsline {paragraph}{}{25}{section*.73}
+\contentsline {subsection}{\numberline {6.2.6}SciKit Learn (Python Library)}{25}{subsection.6.2.6}
+\contentsline {paragraph}{}{25}{section*.74}
+\contentsline {paragraph}{}{25}{section*.75}
+\contentsline {paragraph}{}{26}{section*.76}
+\contentsline {subsection}{\numberline {6.2.7}HTML}{26}{subsection.6.2.7}
+\contentsline {paragraph}{}{26}{section*.77}
+\contentsline {paragraph}{}{26}{section*.78}
+\contentsline {paragraph}{}{26}{section*.79}
+\contentsline {subsection}{\numberline {6.2.8}JavaScript}{26}{subsection.6.2.8}
+\contentsline {paragraph}{}{26}{section*.80}
+\contentsline {paragraph}{}{27}{section*.81}
+\contentsline {subsection}{\numberline {6.2.9}RESTful Web APIs}{27}{subsection.6.2.9}
+\contentsline {paragraph}{}{27}{section*.82}
+\contentsline {paragraph}{}{27}{section*.83}
+\contentsline {section}{\numberline {6.3}Advantages}{28}{section.6.3}
+\contentsline {section}{\numberline {6.4}Applications}{30}{section.6.4}
+\contentsline {chapter}{\numberline {7}Result Sets}{32}{chapter.7}
+\contentsline {chapter}{\numberline {8}Testing}{33}{chapter.8}
+\contentsline {section}{\numberline {8.1}Test Plan}{33}{section.8.1}
+\contentsline {section}{\numberline {8.2}Test Cases}{33}{section.8.2}
+\contentsline {section}{\numberline {8.3}Test Results}{33}{section.8.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{34}{chapter.9}
+\contentsline {paragraph}{}{34}{section*.84}
+\contentsline {chapter}{\numberline {10} References}{35}{section*.85}
+\contentsline {chapter}{Plagiarism Check Report}{37}{section*.87}
+\contentsline {chapter}{Paper Published Details}{38}{section*.89}
