@@ -1,14 +1,76 @@
 \chapter{Testing}
 
-% Test Plan
+% Test Plan: A document describing the scope, approach, resources and schedule of intended test activities. It identifies amongst others test items, the features to be tested, the testing tasks, who will do each task, degree of tester independence, the test environment, the test design techniques and entry and exit criteria to be used, and the rationale for their choice,and any risks requiring contingency planning. It is a record of the test planning process.
 % Test Cases
 % Test Results
 
 \section{Test Plan}
-<Content>
+\paragraph{}
+This is a document describing the testing scope and activities. It is the basis for formally testing components of this software project.
+
+\subsection{Scope}
+%<What all is going to be tested>
+\paragraph{}
+Testing will be performed only on functional components of the system. These include the two main modules corresponding to Tier I and Tier II. Besides this, we don't yet have a plan to perform any other non-functional tests. This testing strategy suffices, as the project itself is not very vast. Listing more formally, the components to be tested are:
+\begin{enumerate}
+\item Module I (Tier I)
+	\begin{enumerate}
+	\item Web API for device control.
+	\item Individual functions involved in maintaining device state changes and reporting them to Module II.
+	\end{enumerate}
+\item Module II (Tier II)
+	\begin{enumerate}
+	\item Web API for Learning Service.
+	\item Individual functions involved in data accumulation and learning process.
+	\end{enumerate}
+\end{enumerate}
+
+\subsection{Not in Scope}
+%<What all is NOT going to be tested - how the client views the WebUI, conformance of inter-tier interfaces to standards>
+%<Why - not very relevant to the core idea being demonstrated, unnecessary for this demonstration>
+\paragraph{}
+We won't be performing any tests to verify if the users interfaces are satisfactory and convenient for the user. This doesn't form a core part of the idea that we are trying to demonstrate through this project.
+\paragraph{}
+This test plan also doesn't include any tests for verifying conformance of the implemented APIs to any particularly defined interface standards. Again, this hinders the simplicity of demonstration of the intended idea - involving a combined application of SaaS, IoT, and ML to solve the problem of home automation using predictive learning.
+\paragraph{}
+Below is a list of things that have been declared out of scope for this test, for the reasons stated above:
+\begin{enumerate}
+\item User Interface Testing.
+\item Testing conformance of components (especially the web APIs) to set standards.
+\end{enumerate}
+
+\subsection{Assumptions}
+%<All the conditions that need to hold true for us to be able to proceed successfully - client-tier I network always available>
+\paragraph{}
+We need to make certain assumptions regarding the environment we operate in, and the tests we cannot perform - for reasons that otherwise deem development, testing and operation impractical to achieve. This can be a long list if each minute detail is taken into account, so we need to limit it to the core hardware and software components that directly impact us. Some of these assumption are:
+\begin{enumerate}
+\item The network infrastructure connecting the Clients to Tier I will always be available.
+\item The clients themselves will always have access to suitable devices that will be used to connect to the automation system.
+\item Connection between the Tier I application and the Tier II service will be available most of the time. Occasional unavailability of Tier II service is tolerable.
+\item There are no security threats that need to be addressed within the house-wide network that the client, Tier I and Tier II are all a part of.
+\end{enumerate}
+
+\subsection{Environment}
+%<What kind of environment requirements exist. The software and hardware used for testing.>
+\paragraph{}
+Modules I and II will have to be tested independently. This will be done by performing pre-designed unittests. Each individual component (that is to say, each "function") will be tested by passing a value to it and checking if the returned value matches expected value. Module I will be hosted on the Raspberry Pi, that is the controller; while Module II will be hosted on the PC, and provide learning service to Module I.
+\paragraph{}
+Each test case is intended to be executed on the device that will host the component being tested. This will keep the test environment and usage environment consistent, leading to more robust tests. The developed tests will have to be run manually, as we don't plan on automating these tests.
+
+\subsection{Tools}
+%<Tools used to test the code. Python's unittest library, in this case.>
+\paragraph{}
+Due to the simplicity of this project, we will not be using any sophisticated test or result management software to keep track of tests. The entire test code will be developed using just one Python language tool - the unittest library. The unittest library is the default testing library that comes with the standard library itself. We will be using this to make sure the components behave the way we expect them to.
+
+\subsection{Exit Criteria}
+%<When to stop testing - when tests for all "units" are satisfied.>
+\paragraph{}
+The exit criteria for the test will be simple - success for all tests implies end of testing. Conformance of all components to the test criteria will be necessary to signal an exit from the tests.
 
 \section{Test Cases}
-<Content>
+%<Define cases for each "unit" that is within scope of testing>
+\paragraph{}
+Each module will have its own set of test cases for each of the components it contains.
 
 \section{Test Results}
-<Content>
+<Expected vs Actual>

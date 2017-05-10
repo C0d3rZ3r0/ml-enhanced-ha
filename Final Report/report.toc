@@ -115,10 +115,26 @@
 \contentsline {chapter}{\numberline {7}Result Sets}{32}{chapter.7}
 \contentsline {chapter}{\numberline {8}Testing}{33}{chapter.8}
 \contentsline {section}{\numberline {8.1}Test Plan}{33}{section.8.1}
-\contentsline {section}{\numberline {8.2}Test Cases}{33}{section.8.2}
-\contentsline {section}{\numberline {8.3}Test Results}{33}{section.8.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{34}{chapter.9}
-\contentsline {paragraph}{}{34}{section*.84}
-\contentsline {chapter}{\numberline {10} References}{35}{section*.85}
-\contentsline {chapter}{Plagiarism Check Report}{37}{section*.87}
-\contentsline {chapter}{Paper Published Details}{38}{section*.89}
+\contentsline {paragraph}{}{33}{section*.84}
+\contentsline {subsection}{\numberline {8.1.1}Scope}{33}{subsection.8.1.1}
+\contentsline {paragraph}{}{33}{section*.85}
+\contentsline {subsection}{\numberline {8.1.2}Not in Scope}{33}{subsection.8.1.2}
+\contentsline {paragraph}{}{33}{section*.86}
+\contentsline {paragraph}{}{34}{section*.87}
+\contentsline {paragraph}{}{34}{section*.88}
+\contentsline {subsection}{\numberline {8.1.3}Assumptions}{34}{subsection.8.1.3}
+\contentsline {paragraph}{}{34}{section*.89}
+\contentsline {subsection}{\numberline {8.1.4}Environment}{34}{subsection.8.1.4}
+\contentsline {paragraph}{}{34}{section*.90}
+\contentsline {paragraph}{}{35}{section*.91}
+\contentsline {subsection}{\numberline {8.1.5}Tools}{35}{subsection.8.1.5}
+\contentsline {paragraph}{}{35}{section*.92}
+\contentsline {subsection}{\numberline {8.1.6}Exit Criteria}{35}{subsection.8.1.6}
+\contentsline {paragraph}{}{35}{section*.93}
+\contentsline {section}{\numberline {8.2}Test Cases}{35}{section.8.2}
+\contentsline {section}{\numberline {8.3}Test Results}{35}{section.8.3}
+\contentsline {chapter}{\numberline {9}Conclusion}{36}{chapter.9}
+\contentsline {paragraph}{}{36}{section*.94}
+\contentsline {chapter}{\numberline {10} References}{37}{section*.95}
+\contentsline {chapter}{Plagiarism Check Report}{39}{section*.97}
+\contentsline {chapter}{Paper Published Details}{40}{section*.99}

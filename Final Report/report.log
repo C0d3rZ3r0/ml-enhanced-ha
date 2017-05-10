@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  9 MAY 2017 08:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.24)  10 MAY 2017 09:11
 entering extended mode
 **report.tex
 
@@ -320,7 +320,7 @@ Final Report\report.out")
 
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
 Final Report\InitialPages\title.tex"
-<./InitialPages/al_ameen-logo.png, id=207, 225.84375pt x 176.91093pt>
+<./InitialPages/al_ameen-logo.png, id=231, 225.84375pt x 176.91093pt>
 File: ./InitialPages/al_ameen-logo.png Graphic file (type png)
 
 <use ./InitialPages/al_ameen-logo.png>
@@ -457,7 +457,7 @@ l.1 \chapter
 
 ]
 Chapter 2.
-<./Chapter2/gantt-chart.png, id=337, 803.0pt x 644.4075pt>
+<./Chapter2/gantt-chart.png, id=367, 803.0pt x 644.4075pt>
 File: ./Chapter2/gantt-chart.png Graphic file (type png)
 
 <use ./Chapter2/gantt-chart.png>
@@ -502,14 +502,14 @@ n-ter-face (pack-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [5] <./Chapter3/client-t1-t2.png, id=371, 711.6186pt x 473.6094pt>
+ [5] <./Chapter3/client-t1-t2.png, id=401, 711.6186pt x 473.6094pt>
 File: ./Chapter3/client-t1-t2.png Graphic file (type png)
 
 <use ./Chapter3/client-t1-t2.png>
 Package pdftex.def Info: ./Chapter3/client-t1-t2.png used on input line 61.
 (pdftex.def)             Requested size: 390.0pt x 259.56818pt.
 
-<./Chapter3/client-t1.png, id=372, 700.0554pt x 477.4638pt>
+<./Chapter3/client-t1.png, id=402, 700.0554pt x 477.4638pt>
 File: ./Chapter3/client-t1.png Graphic file (type png)
 
 <use ./Chapter3/client-t1.png>
@@ -526,7 +526,7 @@ Missing character: There is no ™ in font cmr12!
 l.71 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
  II (Final)/Draft/Final Report/Chapter3/client-t1-t2.png>]
-<./Chapter3/t1-t2.png, id=381, 696.6828pt x 476.982pt>
+<./Chapter3/t1-t2.png, id=411, 696.6828pt x 476.982pt>
 File: ./Chapter3/t1-t2.png Graphic file (type png)
 
 <use ./Chapter3/t1-t2.png>
@@ -570,13 +570,13 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [11]
 Chapter 4.
-<./Chapter4/dfd.png, id=431, 697.6464pt x 491.9178pt>
+<./Chapter4/dfd.png, id=461, 697.6464pt x 491.9178pt>
 File: ./Chapter4/dfd.png Graphic file (type png)
  <use ./Chapter4/dfd.png>
 Package pdftex.def Info: ./Chapter4/dfd.png used on input line 9.
 (pdftex.def)             Requested size: 390.0pt x 274.9992pt.
 
-<./Chapter4/state-transition.png, id=432, 580.569pt x 320.397pt>
+<./Chapter4/state-transition.png, id=462, 580.569pt x 320.397pt>
 File: ./Chapter4/state-transition.png Graphic file (type png)
 
 <use ./Chapter4/state-transition.png>
@@ -620,7 +620,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
  [14]
 Chapter 5.
-<./Chapter5/system-architecture.png, id=448, 713.064pt x 360.8682pt>
+<./Chapter5/system-architecture.png, id=478, 713.064pt x 360.8682pt>
 File: ./Chapter5/system-architecture.png Graphic file (type png)
 
 <use ./Chapter5/system-architecture.png>
@@ -628,7 +628,7 @@ Package pdftex.def Info: ./Chapter5/system-architecture.png used on input line
 13.
 (pdftex.def)             Requested size: 390.0pt x 197.37683pt.
 
-<./Chapter5/UseCaseDiagram.png, id=449, 780.9175pt x 363.3575pt>
+<./Chapter5/UseCaseDiagram.png, id=479, 780.9175pt x 363.3575pt>
 File: ./Chapter5/UseCaseDiagram.png Graphic file (type png)
 
 <use ./Chapter5/UseCaseDiagram.png>
@@ -644,7 +644,7 @@ has been already used, duplicate ignored
 l.27 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
  II (Final)/Draft/Final Report/Chapter5/system-architecture.png>]
-<./Chapter5/ClassDiagram.png, id=456, 822.07124pt x 371.3875pt>
+<./Chapter5/ClassDiagram.png, id=486, 822.07124pt x 371.3875pt>
 File: ./Chapter5/ClassDiagram.png Graphic file (type png)
 
 <use ./Chapter5/ClassDiagram.png>
@@ -661,7 +661,7 @@ Missing character: There is no ™ in font cmr12!
 l.36 
       <E:/BE/Project/Machine Learning On Real-time Data/10. Report II (Final)/D
 raft/Final Report/Chapter5/UseCaseDiagram.png>]
-<./Chapter5/ActivityDiagram.png, id=464, 336.25626pt x 879.285pt>
+<./Chapter5/ActivityDiagram.png, id=494, 336.25626pt x 879.285pt>
 File: ./Chapter5/ActivityDiagram.png Graphic file (type png)
 
 <use ./Chapter5/ActivityDiagram.png>
@@ -678,7 +678,7 @@ Missing character: There is no ™ in font cmr12!
 l.46 	\paragraph
                 {} <E:/BE/Project/Machine Learning On Real-time Data/10. Report
  II (Final)/Draft/Final Report/Chapter5/ClassDiagram.png>]
-<./Chapter5/SequenceDiagram.png, id=471, 783.92876pt x 342.27875pt>
+<./Chapter5/SequenceDiagram.png, id=501, 783.92876pt x 342.27875pt>
 File: ./Chapter5/SequenceDiagram.png Graphic file (type png)
 
 <use ./Chapter5/SequenceDiagram.png>
@@ -787,17 +787,25 @@ Final Report\Chapter8\testing.tex" [32
 
 ]
 Chapter 8.
-)
-("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Final Report\Chapter9\conclusion.tex" [33
+[33
 
 ]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [34])
+("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
+Final Report\Chapter9\conclusion.tex"
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [35]
 Chapter 9.
 )
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Final Report\Chapter10\references.tex" [34
+Final Report\Chapter10\references.tex" [36
 
-] [35
+] [37
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
@@ -860,7 +868,7 @@ Final Report\EndPages\plagiarism-check.tex"
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [36pdfTeX warning (ext4): destination with the same identifier (name{cite.}) h
+ [38pdfTeX warning (ext4): destination with the same identifier (name{cite.}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -868,12 +876,12 @@ as been already used, duplicate ignored
 l.1 \cleardoublepage
                     ])
 ("E:\BE\Project\Machine Learning On Real-time Data\10. Report II (Final)\Draft\
-Final Report\EndPages\published-by.tex" [37
+Final Report\EndPages\published-by.tex" [39
 
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
- [38
+ [40
 
 
 ]
@@ -884,7 +892,7 @@ Final Report\report.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: D523867510440845CDDEB234033DFDD1;3263.
+(rerunfilecheck)             Checksum: BFB4397FDBAE95144711C129D8FAD847;3650.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -892,10 +900,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 5585 strings out of 493921
- 89072 string characters out of 3136416
+ 5621 strings out of 493921
+ 89485 string characters out of 3136416
  159652 words of memory out of 3000000
- 8551 multiletter control sequences out of 15000+200000
+ 8557 multiletter control sequences out of 15000+200000
  8969 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,10n,43p,1564b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -909,9 +917,9 @@ s/cm/cmr12.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/miktex-portable/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb><D:/Softwares/DOCUMENT PROCESSING/LaTeX/mikte
 x-portable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Softwares/DOCUMENT PROC
 ESSING/LaTeX/miktex-portable/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (47 pages, 686356 bytes).
+Output written on report.pdf (49 pages, 697612 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 219 named destinations out of 1000 (max. 500000)
- 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 249 named destinations out of 1000 (max. 500000)
+ 517 words of extra memory for PDF output out of 10000 (max. 10000000)
 
