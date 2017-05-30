@@ -41,6 +41,8 @@
 \cfoot{Department of Computer Engineering, AAEMF’s Pune}
 \rfoot{}
 
+\usepackage{titlesec} %brings chapter titles on a new page
+
 \begin{document}
 \renewcommand\bibname{References} %Renames "Bibliography" to "References" on ref page
 %\renewcommand\bibname{} %Renames "Bibliography" to a blank on ref page
@@ -62,7 +64,27 @@
 \newpage
 \pagenumbering{arabic} %reset numbering to normal for the main content
 
+%This custom environment brings chapter title on a new page of it's own. Uses titlesec package.
+\newenvironment{myTitleFormat}{
+	%titleformat syntax: [ref: http://www.ctex.org/documents/packages/layout/titlesec.pdf]
+	%\titleformat{<command>}[<shape>]{<format>}{<label>}{<sep> {<before>}[<after>]
+	\titleformat{\chapter}[display]
+	{\normalfont\Large\filcenter}
+	{\vspace*{6cm}
+	  \titlerule[1pt]%
+	  \vspace{1pt}%
+	  \titlerule
+	  \vspace{1pc}%
+	  \LARGE\MakeUppercase{\chaptertitlename}~\thechapter}
+	{1pc}
+	{\titlerule\vspace*{1pc}\Huge\bf}
+	[\vspace*{\fill}\thispagestyle{empty}\newpage]
+}{}
+
 %\input{./prob-definition.tex} %objective changed to problem definition %Currently not relevant
+
+\begin{myTitleFormat}
+
 \input{./Chapter1/introduction.tex}
 	% Overview
 	% Breif Description
@@ -103,6 +125,8 @@
 	% Test Cases [TO BE ADDED]
 	% Test Results [TO BE ADDED]
 \input{./Chapter9/conclusion.tex}
+\end{myTitleFormat}
+%
 \input{./Chapter10/references.tex}
 \input{./EndPages/plagiarism-check.tex}
 \input{./EndPages/published-by.tex}

@@ -1,140 +1,145 @@
-\contentsline {paragraph}{}{3}{section*.2}
-\contentsline {paragraph}{}{3}{section*.3}
-\contentsline {paragraph}{}{3}{section*.4}
-\contentsline {paragraph}{}{3}{section*.5}
-\contentsline {paragraph}{}{1}{section*.6}
+\contentsline {paragraph}{}{3}{chapter*.1}
+\contentsline {paragraph}{}{3}{chapter*.1}
+\contentsline {paragraph}{}{3}{chapter*.1}
+\contentsline {paragraph}{}{3}{chapter*.1}
+\contentsline {paragraph}{}{1}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Detailed Problem Definition}{1}{section.1.1}
-\contentsline {paragraph}{}{1}{section*.10}
-\contentsline {paragraph}{}{1}{section*.11}
-\contentsline {section}{\numberline {1.2}Brief Description}{1}{section.1.2}
-\contentsline {paragraph}{}{1}{section*.12}
-\contentsline {chapter}{\numberline {2}Analysis}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Project Plan}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Requirement Analysis}{3}{section.2.2}
-\contentsline {paragraph}{}{3}{section*.13}
-\contentsline {section}{\numberline {2.3}Team Structure}{3}{section.2.3}
-\contentsline {paragraph}{}{3}{section*.14}
-\contentsline {chapter}{\numberline {3}Design}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}Software Requirements}{4}{section.3.1}
-\contentsline {paragraph}{}{4}{section*.15}
-\contentsline {paragraph}{}{4}{section*.16}
-\contentsline {section}{\numberline {3.2}Hardware Requirements}{4}{section.3.2}
-\contentsline {section}{\numberline {3.3}Software Requirements Specification}{5}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Functionality}{5}{subsection.3.3.1}
-\contentsline {paragraph}{}{5}{section*.17}
-\contentsline {paragraph}{}{5}{section*.18}
-\contentsline {paragraph}{}{5}{section*.19}
-\contentsline {subsection}{\numberline {3.3.2}External Interfaces}{6}{subsection.3.3.2}
-\contentsline {paragraph}{}{6}{section*.20}
-\contentsline {paragraph}{}{6}{section*.22}
-\contentsline {paragraph}{}{7}{section*.23}
-\contentsline {paragraph}{}{7}{section*.24}
-\contentsline {paragraph}{}{7}{section*.26}
-\contentsline {paragraph}{}{8}{section*.27}
-\contentsline {subsection}{\numberline {3.3.3}Required Performance}{9}{subsection.3.3.3}
-\contentsline {paragraph}{}{9}{section*.28}
-\contentsline {paragraph}{}{9}{section*.30}
-\contentsline {paragraph}{}{9}{section*.31}
-\contentsline {paragraph}{}{9}{section*.33}
-\contentsline {paragraph}{}{9}{section*.34}
-\contentsline {subsection}{\numberline {3.3.4}Quality Attributes}{10}{subsection.3.3.4}
-\contentsline {paragraph}{}{10}{section*.35}
-\contentsline {paragraph}{}{10}{section*.37}
-\contentsline {paragraph}{}{10}{section*.39}
-\contentsline {paragraph}{}{10}{section*.41}
-\contentsline {paragraph}{}{10}{section*.42}
-\contentsline {subsection}{\numberline {3.3.5}Design Constraints}{11}{subsection.3.3.5}
-\contentsline {paragraph}{}{11}{section*.43}
-\contentsline {paragraph}{}{11}{section*.44}
-\contentsline {paragraph}{}{11}{section*.45}
-\contentsline {paragraph}{}{11}{section*.46}
-\contentsline {chapter}{\numberline {4}Modelling}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data Flow Diagram}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}State Transition Diagram}{13}{section.4.2}
-\contentsline {paragraph}{}{14}{section*.47}
-\contentsline {chapter}{\numberline {5}System Design}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}System Architecture}{15}{section.5.1}
-\contentsline {paragraph}{}{15}{section*.48}
-\contentsline {section}{\numberline {5.2}UML Diagrams}{16}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Use Case Diagram}{16}{subsection.5.2.1}
-\contentsline {paragraph}{}{16}{section*.49}
-\contentsline {subsection}{\numberline {5.2.2}Class Diagram}{17}{subsection.5.2.2}
-\contentsline {paragraph}{}{17}{section*.50}
-\contentsline {subsection}{\numberline {5.2.3}Activity Diagram}{18}{subsection.5.2.3}
-\contentsline {paragraph}{}{18}{section*.51}
-\contentsline {subsection}{\numberline {5.2.4}Sequence Diagram}{19}{subsection.5.2.4}
-\contentsline {paragraph}{}{19}{section*.52}
-\contentsline {chapter}{\numberline {6}Coding}{20}{chapter.6}
-\contentsline {section}{\numberline {6.1}Algorithm}{20}{section.6.1}
-\contentsline {paragraph}{Logistic Regression}{20}{section*.53}
-\contentsline {subsection}{\numberline {6.1.1}Logistic Function}{20}{subsection.6.1.1}
-\contentsline {paragraph}{}{20}{section*.54}
-\contentsline {paragraph}{}{20}{section*.55}
-\contentsline {subsection}{\numberline {6.1.2}Logistic Regression Model}{20}{subsection.6.1.2}
-\contentsline {paragraph}{}{20}{section*.56}
-\contentsline {paragraph}{}{21}{section*.57}
-\contentsline {paragraph}{}{21}{section*.58}
-\contentsline {section}{\numberline {6.2}References to Technology}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}LaaS: Learning-as-a-Service}{21}{subsection.6.2.1}
-\contentsline {paragraph}{}{21}{section*.59}
-\contentsline {paragraph}{}{21}{section*.60}
-\contentsline {subsection}{\numberline {6.2.2}IoT: Internet of "Things"}{22}{subsection.6.2.2}
-\contentsline {paragraph}{}{22}{section*.61}
-\contentsline {paragraph}{}{22}{section*.62}
-\contentsline {paragraph}{}{22}{section*.63}
-\contentsline {subsection}{\numberline {6.2.3}Raspberry Pi}{22}{subsection.6.2.3}
-\contentsline {paragraph}{}{22}{section*.64}
-\contentsline {paragraph}{}{22}{section*.65}
-\contentsline {subsection}{\numberline {6.2.4}Python}{23}{subsection.6.2.4}
-\contentsline {paragraph}{}{23}{section*.66}
-\contentsline {paragraph}{}{23}{section*.67}
-\contentsline {paragraph}{}{23}{section*.68}
-\contentsline {paragraph}{}{23}{section*.69}
-\contentsline {subsection}{\numberline {6.2.5}Flask (Python Library)}{24}{subsection.6.2.5}
-\contentsline {paragraph}{}{24}{section*.70}
-\contentsline {paragraph}{}{24}{section*.71}
-\contentsline {paragraph}{}{24}{section*.72}
-\contentsline {paragraph}{}{25}{section*.73}
-\contentsline {subsection}{\numberline {6.2.6}SciKit Learn (Python Library)}{25}{subsection.6.2.6}
-\contentsline {paragraph}{}{25}{section*.74}
-\contentsline {paragraph}{}{25}{section*.75}
-\contentsline {paragraph}{}{26}{section*.76}
-\contentsline {subsection}{\numberline {6.2.7}HTML}{26}{subsection.6.2.7}
-\contentsline {paragraph}{}{26}{section*.77}
-\contentsline {paragraph}{}{26}{section*.78}
-\contentsline {paragraph}{}{26}{section*.79}
-\contentsline {subsection}{\numberline {6.2.8}JavaScript}{26}{subsection.6.2.8}
-\contentsline {paragraph}{}{26}{section*.80}
-\contentsline {paragraph}{}{27}{section*.81}
-\contentsline {subsection}{\numberline {6.2.9}RESTful Web APIs}{27}{subsection.6.2.9}
-\contentsline {paragraph}{}{27}{section*.82}
-\contentsline {paragraph}{}{27}{section*.83}
-\contentsline {section}{\numberline {6.3}Advantages}{28}{section.6.3}
-\contentsline {section}{\numberline {6.4}Applications}{30}{section.6.4}
-\contentsline {chapter}{\numberline {7}Result Sets}{32}{chapter.7}
-\contentsline {chapter}{\numberline {8}Testing}{33}{chapter.8}
-\contentsline {section}{\numberline {8.1}Test Plan}{33}{section.8.1}
-\contentsline {paragraph}{}{33}{section*.84}
-\contentsline {subsection}{\numberline {8.1.1}Scope}{33}{subsection.8.1.1}
-\contentsline {paragraph}{}{33}{section*.85}
-\contentsline {subsection}{\numberline {8.1.2}Not in Scope}{33}{subsection.8.1.2}
-\contentsline {paragraph}{}{33}{section*.86}
-\contentsline {paragraph}{}{34}{section*.87}
-\contentsline {paragraph}{}{34}{section*.88}
-\contentsline {subsection}{\numberline {8.1.3}Assumptions}{34}{subsection.8.1.3}
-\contentsline {paragraph}{}{34}{section*.89}
-\contentsline {subsection}{\numberline {8.1.4}Environment}{34}{subsection.8.1.4}
-\contentsline {paragraph}{}{34}{section*.90}
-\contentsline {paragraph}{}{35}{section*.91}
-\contentsline {subsection}{\numberline {8.1.5}Tools}{35}{subsection.8.1.5}
-\contentsline {paragraph}{}{35}{section*.92}
-\contentsline {subsection}{\numberline {8.1.6}Exit Criteria}{35}{subsection.8.1.6}
-\contentsline {paragraph}{}{35}{section*.93}
-\contentsline {section}{\numberline {8.2}Test Cases}{35}{section.8.2}
-\contentsline {section}{\numberline {8.3}Test Results}{35}{section.8.3}
-\contentsline {chapter}{\numberline {9}Conclusion}{36}{chapter.9}
-\contentsline {paragraph}{}{36}{section*.94}
-\contentsline {chapter}{\numberline {10} References}{37}{section*.95}
-\contentsline {chapter}{Plagiarism Check Report}{39}{section*.97}
-\contentsline {chapter}{Paper Published Details}{40}{section*.99}
+\contentsline {section}{\numberline {1.1}Detailed Problem Definition}{2}{section.1.1}
+\contentsline {paragraph}{}{2}{section.1.1}
+\contentsline {paragraph}{}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Brief Description}{2}{section.1.2}
+\contentsline {paragraph}{}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Analysis}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Project Plan}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}Requirement Analysis}{4}{section.2.2}
+\contentsline {paragraph}{}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Team Structure}{4}{section.2.3}
+\contentsline {paragraph}{}{4}{section.2.3}
+\contentsline {chapter}{\numberline {3}Design}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Software Requirements}{6}{section.3.1}
+\contentsline {paragraph}{}{6}{section.3.1}
+\contentsline {paragraph}{}{6}{Item.4}
+\contentsline {section}{\numberline {3.2}Hardware Requirements}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Software Requirements Specification}{7}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Functionality}{7}{subsection.3.3.1}
+\contentsline {paragraph}{}{7}{subsection.3.3.1}
+\contentsline {paragraph}{}{7}{subsection.3.3.1}
+\contentsline {paragraph}{}{7}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}External Interfaces}{8}{subsection.3.3.2}
+\contentsline {paragraph}{}{8}{subsection.3.3.2}
+\contentsline {paragraph}{}{8}{figure.3.1}
+\contentsline {paragraph}{}{9}{figure.3.2}
+\contentsline {paragraph}{}{9}{figure.3.2}
+\contentsline {paragraph}{}{9}{figure.3.2}
+\contentsline {paragraph}{}{10}{figure.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Required Performance}{11}{subsection.3.3.3}
+\contentsline {paragraph}{}{11}{subsection.3.3.3}
+\contentsline {paragraph}{}{11}{subsection.3.3.3}
+\contentsline {paragraph}{}{11}{subsection.3.3.3}
+\contentsline {paragraph}{}{11}{subsection.3.3.3}
+\contentsline {paragraph}{}{11}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Quality Attributes}{12}{subsection.3.3.4}
+\contentsline {paragraph}{}{12}{subsection.3.3.4}
+\contentsline {paragraph}{}{12}{subsection.3.3.4}
+\contentsline {paragraph}{}{12}{subsection.3.3.4}
+\contentsline {paragraph}{}{12}{subsection.3.3.4}
+\contentsline {paragraph}{}{12}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Design Constraints}{13}{subsection.3.3.5}
+\contentsline {paragraph}{}{13}{subsection.3.3.5}
+\contentsline {paragraph}{}{13}{subsection.3.3.5}
+\contentsline {paragraph}{}{13}{subsection.3.3.5}
+\contentsline {paragraph}{}{13}{Item.12}
+\contentsline {chapter}{\numberline {4}Modelling}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Flow Diagram}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}State Transition Diagram}{15}{section.4.2}
+\contentsline {paragraph}{}{16}{figure.4.2}
+\contentsline {chapter}{\numberline {5}System Design}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}System Architecture}{18}{section.5.1}
+\contentsline {paragraph}{}{18}{figure.5.1}
+\contentsline {section}{\numberline {5.2}UML Diagrams}{19}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Use Case Diagram}{19}{subsection.5.2.1}
+\contentsline {paragraph}{}{19}{figure.5.2}
+\contentsline {subsection}{\numberline {5.2.2}Class Diagram}{20}{subsection.5.2.2}
+\contentsline {paragraph}{}{20}{figure.5.3}
+\contentsline {subsection}{\numberline {5.2.3}Activity Diagram}{21}{subsection.5.2.3}
+\contentsline {paragraph}{}{21}{figure.5.4}
+\contentsline {subsection}{\numberline {5.2.4}Sequence Diagram}{22}{subsection.5.2.4}
+\contentsline {paragraph}{}{22}{figure.5.5}
+\contentsline {chapter}{\numberline {6}Coding}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Algorithm}{24}{section.6.1}
+\contentsline {paragraph}{Logistic Regression}{24}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Logistic Function}{24}{subsection.6.1.1}
+\contentsline {paragraph}{}{24}{subsection.6.1.1}
+\contentsline {paragraph}{}{24}{equation.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Logistic Regression Model}{24}{subsection.6.1.2}
+\contentsline {paragraph}{}{24}{subsection.6.1.2}
+\contentsline {paragraph}{}{24}{subsection.6.1.2}
+\contentsline {paragraph}{}{25}{equation.6.1.2}
+\contentsline {section}{\numberline {6.2}References to Technology}{25}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}LaaS: Learning-as-a-Service}{25}{subsection.6.2.1}
+\contentsline {paragraph}{}{25}{subsection.6.2.1}
+\contentsline {paragraph}{}{25}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}IoT: Internet of ``Things''}{25}{subsection.6.2.2}
+\contentsline {paragraph}{}{25}{subsection.6.2.2}
+\contentsline {paragraph}{}{25}{subsection.6.2.2}
+\contentsline {paragraph}{}{26}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Raspberry Pi}{26}{subsection.6.2.3}
+\contentsline {paragraph}{}{26}{subsection.6.2.3}
+\contentsline {paragraph}{}{26}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Python}{26}{subsection.6.2.4}
+\contentsline {paragraph}{}{26}{subsection.6.2.4}
+\contentsline {paragraph}{}{27}{subsection.6.2.4}
+\contentsline {paragraph}{}{27}{subsection.6.2.4}
+\contentsline {paragraph}{}{27}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Flask (Python Library)}{27}{subsection.6.2.5}
+\contentsline {paragraph}{}{27}{subsection.6.2.5}
+\contentsline {paragraph}{}{28}{subsection.6.2.5}
+\contentsline {paragraph}{}{28}{subsection.6.2.5}
+\contentsline {paragraph}{}{28}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}SciKit Learn (Python Library)}{29}{subsection.6.2.6}
+\contentsline {paragraph}{}{29}{subsection.6.2.6}
+\contentsline {paragraph}{}{29}{subsection.6.2.6}
+\contentsline {paragraph}{}{29}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}HTML}{30}{subsection.6.2.7}
+\contentsline {paragraph}{}{30}{subsection.6.2.7}
+\contentsline {paragraph}{}{30}{subsection.6.2.7}
+\contentsline {paragraph}{}{30}{subsection.6.2.7}
+\contentsline {subsection}{\numberline {6.2.8}JavaScript}{30}{subsection.6.2.8}
+\contentsline {paragraph}{}{30}{subsection.6.2.8}
+\contentsline {paragraph}{}{31}{subsection.6.2.8}
+\contentsline {subsection}{\numberline {6.2.9}RESTful Web APIs}{31}{subsection.6.2.9}
+\contentsline {paragraph}{}{31}{subsection.6.2.9}
+\contentsline {paragraph}{}{31}{subsection.6.2.9}
+\contentsline {section}{\numberline {6.3}Advantages}{31}{section.6.3}
+\contentsline {section}{\numberline {6.4}Applications}{33}{section.6.4}
+\contentsline {chapter}{\numberline {7}Result Sets}{35}{chapter.7}
+\contentsline {chapter}{\numberline {8}Testing}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}Test Plan}{38}{section.8.1}
+\contentsline {paragraph}{}{38}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Scope}{38}{subsection.8.1.1}
+\contentsline {paragraph}{}{38}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Not in Scope}{38}{subsection.8.1.2}
+\contentsline {paragraph}{}{38}{subsection.8.1.2}
+\contentsline {paragraph}{}{38}{subsection.8.1.2}
+\contentsline {paragraph}{}{38}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Assumptions}{39}{subsection.8.1.3}
+\contentsline {paragraph}{}{39}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}Environment}{39}{subsection.8.1.4}
+\contentsline {paragraph}{}{39}{subsection.8.1.4}
+\contentsline {paragraph}{}{39}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Tools}{40}{subsection.8.1.5}
+\contentsline {paragraph}{}{40}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.6}Exit Criteria}{40}{subsection.8.1.6}
+\contentsline {paragraph}{}{40}{subsection.8.1.6}
+\contentsline {section}{\numberline {8.2}Test Cases}{41}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Unit Test Cases}{41}{subsection.8.2.1}
+\contentsline {paragraph}{}{41}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}Test Results}{46}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Module 1}{46}{subsection.8.3.1}
+\contentsline {paragraph}{}{47}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Module 2}{47}{subsection.8.3.2}
+\contentsline {chapter}{\numberline {9}Conclusion}{48}{chapter.9}
+\contentsline {paragraph}{}{49}{chapter.9}
+\contentsline {chapter}{\numberline {10} References}{50}{section*.5}
+\contentsline {chapter}{Plagiarism Check Report}{52}{section*.7}
+\contentsline {chapter}{Paper Published Details}{53}{section*.9}
